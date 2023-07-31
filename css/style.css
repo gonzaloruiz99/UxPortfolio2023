@@ -143,10 +143,9 @@ h4 {
 }
 
 .subtitle {
-  /*Unir con subtitle*/
   font-size: 14px;
   line-height: 28px;
-  color: var(--color-neutral-40);
+  color: var(--color-neutral-60);
 }
 
 #service .subtitle,
