@@ -11,7 +11,7 @@ const recentWorks = [
         "id":"yllamps",
         "tag":"UX/UI CASE STUDY 002",
         "name":`YL Lamps`,
-        "text":`The best app to organize every area of your life! Connect your tasks, habits & schedule in one place!`,
+        "text":`Website to learn about lighting and find the perfect lamp for you!`,
         "image":"./img/recent_project-2.jpg",
         "button": "read more",
         
@@ -20,7 +20,7 @@ const recentWorks = [
         "id":"easyhelp",
         "tag":"UX/UI CASE STUDY 003",
         "name":`Easy Help`,
-        "text":`The best app to organize every area of your life! Connect your tasks, habits & schedule in one place!`,
+        "text":`The easiest way to join, create and donate to volunteering events!`,
         "image":"./img/recent_project-3.jpg",
         "button": "read more",
 
@@ -31,17 +31,19 @@ const otherWorks = [
         "id": "uichallenge",
         "tag":"UI CHALLENGE",
         "name":`Figma Challenge`,
-        "text":`The best app to organize every area of your life! Connect your tasks, habits & schedule in one place!`,
+        "text":`100 projects made each day to learn UI principles using Figma.`,
         "image":"./img/other_projects-figmaCh.png",
         "button": "go to page",
+        "link": "https://www.figma.com/file/A6XPtiDx03uQuN0P7TA1Ki/My-100-Daily-UI-Challenge?type=design&node-id=668-14&mode=design&t=CP51rlzoSE9jhk2c-0",
     },
     {
         "id": "frontendchallenge",
         "tag":"PROGRAMMING",
         "name":`Frontend Challenge`,
-        "text":`The best app to organize every area of your life! Connect your tasks, habits & schedule in one place!`,
+        "text":`Small projects created to learn Front-end programming using HTML, CSS, JS & React.`,
         "image":"./img/other_projects-frontendCh.png",
         "button": "go to page",
+        "link": "https://gonzaloruiz99.github.io/portfolio2023/",
     },
 ]
 
@@ -115,7 +117,9 @@ function displayOtherItems(menuItems){
             <div class="cardbody">
                 <h2>${item.name}</h2>
                 <p class="body2">${item.text}</p>
-                <button class="btn__primary" onclick= changeSingle("${item.id}") > ${item.button}</button>
+                <a href="${item.link}" target="_blank">
+                    <button class="btn__primary"> ${item.button}</button>
+                </a>
             </div>
             <div class="cardhead">
                 <img src=${item.image} alt="image">
@@ -133,8 +137,9 @@ function displayOtherItems(menuItems){
             <div class="cardbody">
                 <h2>${item.name}</h2>
                 <p class="body2">${item.text}</p>
-                <button class="btn__primary" onclick= changeSingle("${item.id}") > ${item.button}</button>
-            </div>
+                <a href="${item.link}" target="_blank">
+                    <button class="btn__primary"> ${item.button}</button>
+                </a>            </div>
             <div class="mytag_r">
                 <p>${item.tag}</p>
             </div>
