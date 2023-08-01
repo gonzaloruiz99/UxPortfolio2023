@@ -154,5 +154,5 @@ function displayOtherItems(menuItems){
 
 function changeSingle(pageId) {
 
-  window.location.href = `/${pageId}.html`
+  window.location.href = `./${pageId}`
 }
