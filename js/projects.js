@@ -1,5 +1,13 @@
 const recentWorks = [
     {
+        "id":"deterio23",
+        "tag":"DESIGN SYSTEM",
+        "name":`Deterio23`,
+        "text":`Style guide created as the final project of the Domestika course, and applied to my portfolio.`,
+        "image":"./img/recent_Deterio23.jpg",
+        "button": "read more",
+    },
+    {
         "id":"blocks",
         "tag":"UX/UI CASE STUDY 001",
         "name":`Blocks`,
