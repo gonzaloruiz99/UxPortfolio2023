@@ -12,7 +12,7 @@ const recentWorks = [
         "tag":"UI CHALLENGE",
         "name":`TuBondi redesign`,
         "text":`Small "2 days challenge" to practice my UI skills with the local transport app of Córdoba.`,
-        "image":"./img/recent_TuBondi.jpg",
+        "image":"./img/recent_tuBondi.jpg",
         "button": "read more",
     },
     {
