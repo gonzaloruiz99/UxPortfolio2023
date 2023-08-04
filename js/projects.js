@@ -12,7 +12,7 @@ const recentWorks = [
         "tag":"UI CHALLENGE",
         "name":`TuBondi redesign`,
         "text":`Small "2 days challenge" to practice my UI skills with the local transport app of Córdoba.`,
-        "image":"./img/recent_tuBondi.jpg",
+        "image":"./img/recent_TuBondi.jpg",
         "button": "read more",
     },
     {
@@ -92,7 +92,7 @@ function displayRecentItems(menuItems){
                 <button class="btn__primary" onclick= changeSingle("${item.id}")> ${item.button}</button>
             </div>
             <div class="cardhead">
-                <img src=${item.image} alt="image">
+                <img src=${item.images} alt="Not Found" onerror="this.src='img/error_ImgDefault.jpg'">
             </div>
         </article>
         `
