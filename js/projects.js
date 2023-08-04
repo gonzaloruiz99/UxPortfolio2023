@@ -92,7 +92,7 @@ function displayRecentItems(menuItems){
                 <button class="btn__primary" onclick= changeSingle("${item.id}")> ${item.button}</button>
             </div>
             <div class="cardhead">
-                <img src=${item.images} alt="Not Found" onerror="this.src='img/error_ImgDefault.jpg'">
+                <img src=${item.image} alt="Not Found" onerror="this.src='img/error_ImgDefault.jpg'">
             </div>
         </article>
         `
