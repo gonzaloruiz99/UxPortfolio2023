@@ -8,13 +8,21 @@ const recentWorks = [
         "button": "read more",
     },
     {
-        "id":"blocks",
-        "tag":"UX/UI CASE STUDY 001",
-        "name":`Blocks`,
-        "text":`The best app to organize every area of your life! Connect your tasks, habits & schedule in one place!`,
-        "image":"./img/recent_project-1.jpg",
+        "id":"tuBondi",
+        "tag":"UI CHALLENGE",
+        "name":`TuBondi redesign`,
+        "text":`Small "2 days challenge" to practice my UI skills with the local transport app of Córdoba.`,
+        "image":"./img/recent_tuBondi.jpg",
         "button": "read more",
     },
+    {
+        "id":"easyhelp",
+        "tag":"UX/UI CASE STUDY 003",
+        "name":`Easy Help`,
+        "text":`The easiest way to join, create and donate to volunteering events!`,
+        "image":"./img/recent_project-3.jpg",
+        "button": "read more",
+    },    
     {
         "id":"yllamps",
         "tag":"UX/UI CASE STUDY 002",
@@ -25,13 +33,12 @@ const recentWorks = [
         
     },
     {
-        "id":"easyhelp",
-        "tag":"UX/UI CASE STUDY 003",
-        "name":`Easy Help`,
-        "text":`The easiest way to join, create and donate to volunteering events!`,
-        "image":"./img/recent_project-3.jpg",
+        "id":"blocks",
+        "tag":"UX/UI CASE STUDY 001",
+        "name":`Blocks`,
+        "text":`The best app to organize every area of your life! Connect your tasks, habits & schedule in one place!`,
+        "image":"./img/recent_project-1.jpg",
         "button": "read more",
-
     },
 ]
 const otherWorks = [
