@@ -1,5 +1,13 @@
 const recentWorks = [
     {
+        "id":"Webflow1",
+        "tag":"WEBFLOW",
+        "name":`Webflow Template`,
+        "text":`Personal portfolio website design in Figma, and created in Webflow, including animations and CMS`,
+        "image":"./img/webflow_project1.jpg",
+        "button": "read more",
+    },
+    {
         "id":"deterio23",
         "tag":"DESIGN SYSTEM",
         "name":`Deterio23`,
@@ -58,7 +66,7 @@ const otherWorks = [
         "text":`Small projects created to learn Front-end programming using HTML, CSS, JS & React.`,
         "image":"./img/other_projects-frontendCh.png",
         "button": "go to page",
-        "link": "https://gonzaloruiz99.github.io/portfolio2023/",
+        "link": "https://gonzaloruiz99.github.io/frontend-CH-2023/",
     },
 ]
 
