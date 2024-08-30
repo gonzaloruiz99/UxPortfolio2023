@@ -1,10 +1,10 @@
 const recentWorks = [
     {
-        "id":"Webflow1",
+        "id":"webflow1",
         "tag":"WEBFLOW",
         "name":`Webflow Template`,
         "text":`Personal portfolio website design in Figma, and created in Webflow, including animations and CMS`,
-        "image":"./img/webflow_project1.jpg",
+        "image":"./img/webflow_project1.png",
         "button": "read more",
     },
     {

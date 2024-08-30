@@ -34,6 +34,13 @@ const allProjects = [
         "text":`The best app to organize every area of your life! Connect your tasks, habits & schedule in one place!`,
         "image":"/img/other_projects-frontendCh.png",
     },
+    {
+        "id": 6,
+        "tag":"WEBFLOW",
+        "name":`Webflow Template`,
+        "text":`Personal portfolio website design in Figma, and created in Webflow, including animations and CMS`,
+        "image":"./img/webflow_project1.png",
+    },
 ];
 
 /*
