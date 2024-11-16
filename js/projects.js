@@ -1,5 +1,13 @@
 const recentWorks = [
     {
+        "id":"emblaze",
+        "tag":"BRANDING & WEB DESIGN",
+        "name":`Marketing Agency Website`,
+        "text":`Rebranding and web design to enhance clarity, organization, and visual appeal for a competitive edge.`,
+        "image":"./img/recent_project-emblaze.png",
+        "button": "read more",
+    },
+    {
         "id":"webflow1",
         "tag":"WEBFLOW",
         "name":`Webflow Template`,
