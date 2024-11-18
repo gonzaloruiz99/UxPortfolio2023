@@ -1,18 +1,18 @@
 const recentWorks = [
-    {
-        "id":"alaordenR",
-        "tag":"RESEARCH",
-        "name":`Mobile App research`,
-        "text":`Research and analysis of the mobile application “A la Orden” to generate adjustments and improvements.`,
-        "image":"./img/recent_project-alaorden.png",
-        "button": "read more",
-    },
-    {
+        {
         "id":"emblaze",
         "tag":"BRANDING & WEB DESIGN",
         "name":`Marketing Agency Website`,
         "text":`Rebranding and web design to enhance clarity, organization, and visual appeal for a competitive edge.`,
         "image":"./img/recent_project-emblaze.png",
+        "button": "read more",
+    },
+    {
+        "id":"alaordenR",
+        "tag":"RESEARCH",
+        "name":`Mobile App research`,
+        "text":`In-depth evaluation of the mobile app 'A la Orden' to propose enhancements and refine the user experience.`,
+        "image":"./img/recent_project-alaorden.png",
         "button": "read more",
     },
     {
