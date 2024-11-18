@@ -1,5 +1,13 @@
 const recentWorks = [
     {
+        "id":"alaordenR",
+        "tag":"RESEARCH",
+        "name":`Mobile App research`,
+        "text":`Research and analysis of the mobile application “A la Orden” to generate adjustments and improvements.`,
+        "image":"./img/recent_project-alaorden.png",
+        "button": "read more",
+    },
+    {
         "id":"emblaze",
         "tag":"BRANDING & WEB DESIGN",
         "name":`Marketing Agency Website`,
