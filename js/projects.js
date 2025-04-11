@@ -73,7 +73,7 @@ const otherWorks = [
         "text":`100 projects made each day to learn UI principles using Figma.`,
         "image":"./img/other_projects-figmaCh.png",
         "button": "go to page",
-        "link": "https://www.figma.com/file/A6XPtiDx03uQuN0P7TA1Ki/My-100-Daily-UI-Challenge?type=design&node-id=668-14&mode=design&t=CP51rlzoSE9jhk2c-0",
+        "link": "https://www.figma.com/design/POMNKBkoT7IemxRfzdXknZ/My-100-Daily-UI-Challenge?node-id=2-29028&t=zOUx2AD9NHW8cwDs-1",
     },
     {
         "id": "frontendchallenge",
